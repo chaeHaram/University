@@ -1,0 +1,682 @@
+International Journal o f 
+Financial Studies 
+Article 
+The Impact of Macroeconomic Factors on the German 
+Stock Market: Evidence for the Crisis, Pre- and 
+Post-Crisis Periods 
+Kaan Celebi 1,2,* and Michaela Honig 1 
+1 Faculty of Business and Law, Frankfurt University of Applied Sciences, Nibelungenplatz 1, 
+D-60318 Frankfurt am Main, Germany; hoenig@fb3.fra-uas.de 
+2 Schumpeter School of Business and Economics, University ofWuppertal, Gau©¬stra©¬e 20, 
+D-42119Wuppertal, Germany 
+* Correspondence: kcelebi@fb3.fra-uas.de; Tel.: +49-69-1533-2941 
+Received: 31 January 2019; Accepted: 18 March 2019; Published: 29 March 2019 
+
+Abstract: Today we live in a post-truth and highly digitalized era characterized by a flow of (mis-) 
+information around the world. Identifying the impact of this information on stock markets and 
+forecasting stock returns and volatilities has become a much more difficult task, perhaps almost 
+impossible. This paper investigates the impact of macroeconomic factors, German government 
+bond yields, sentiment and other leading indicators on the main German stock index, namely the 
+DAX30, for the time period from 1991 to 2018. Using a dataset on 24 factors and over a timeframe of 
+about 27 years, we found evidence that across most subsamples, the Composite Leading Indicator 
+(OECD), the Institute for Economic Research (ifo) Export Expectations index, the ifo Export Climate 
+index, exports, the Consumer Price Index CPI, as well as 3 y German government bonds yields show 
+delayed impacts on stock returns. We further found that the delayed impact of the constituents of 
+the monetary aggregate M2 on stock returns changed direction between the crisis and post-crisis 
+periods. Overall, the results illustrate that in the crisis period a larger number of factors and economic 
+indicators had significant impacts on the stock returns compared to the pre- and post-crisis periods. 
+This implies that in the post-crisis period a macro-driven market prevails. 
+Keywords: financial markets & the macroeconomy; financial econometrics; monetary aggregates; 
+information and market efficiency; financial crises 
+JEL Classification: C32; C58; E44; G01; G14 
+1. Introduction 
+For as long as stock markets have existed, traders have tried to investigate and forecast stock price 
+and capital market developments. Familiar to traders and other interested parties is the finding that 
+macroeconomic factors do indeed influence the stock price, as do corporate financial results, political 
+situations and industry branch figures. Identifying the impact of this information on stock markets 
+and, moreover, forecasting stock returns and volatilities play a crucial role in the economic sciences, 
+especially regarding the discussion about the efficient market hypothesis. Since we now live in a 
+post-truth and highly digitalized era where a lot of information flows around the world, it has become 
+more difficult to estimate markets returns and risks considering the huge amount of information 
+available and other possible factors. Macroeconomic factors, which are the focus of this analysis, 
+represent (only) a fraction of the variables which have explanatory power vis-a-vis stock returns. 
+The inflationary era in the 1970s led researchers to investigate primarily the relationship between 
+stocks and inflation especially for the stock market in the USA. Looking at the USA, Bodie (1976), 
+Int. J. Financial Stud. 2019, 7, 18; doi:10.3390/ijfs7020018 www.mdpi.com/journal/ijfs
+
+Int. J. Financial Stud. 2019, 7, 18 2 of 13 
+Fama and Schwert (1977), Fama (1981), Chen et al. (1986) and Pearce and Roley (1983, 1985) found a 
+negative relationship between inflation and asset returns and also found that stocks act as a poor hedge 
+against inflation. Fama (1981) explained the negative relationship with the ¡°proxy effect hypothesis¡±: 
+the negative correlation between inflation and real activity and the positive correlation between real 
+activity and stocks lead jointly to the negative relationship between inflation and stock returns. A 
+further explanation for the negative relationship is given with the ¡°inflation illusion hypothesis¡± by 
+Modigliani and Cohn (1979): regarding the Fisher hypothesis, increasing inflation expectations lead to 
+higher discounts of the future expected dividends meaning lower stock values. 
+Using the Arbitrage Pricing Theory, Chen et al. (1986) found that for the stock market in the 
+USA, the term structure spread (difference between long- and short-term interest rates), expected 
+and unexpected inflation, industry production and the spread between high and low level bonds are 
+significant risk factors for the stock market. Ferson and Harvey (1991) showed similar findings to those 
+of Chen et al. (1986). Hamilton and Susmel (1994) investigated not only the equity returns but also 
+their volatilities by estimating Markov-switching GARCH models using monthly USA equity returns 
+and found that the real economic conditions significantly explained the switching from low to high 
+volatility regimes. The investigation shows an increasing incidence of months with high volatility in 
+bust phases. Fama (1990) argued that if equity prices reflect expected future cash flows, equity price 
+changes should predict future macro conditions. Using monthly, quarterly and annual USA stock 
+returns, he found empirically, for the period of 1953.1987, a positive correlation between stock returns 
+and industrial production growth. 
+The papers written after the 1990s focused more on the announcement effect of macroeconomic 
+factors on stock returns. McQueen and Roley (1993) argued that market participants¡¯ reactions 
+to announcement surprises differ at different points of the business cycle in the USA. Thus, in 
+boom phases, stock returns respond negatively to higher real activity. The authors explained this 
+finding with the increase in discount rates being larger than the increase of expected cash flows, 
+which leads to shrinking stock values in the boom phases. The time dependency of the impact of 
+macro-announcements was also shown by Boyd et al. (2005). They found that announcements of higher 
+unemployment have a positive effect on stocks during an economic expansion and have a negative 
+effect during economic contractions. To explain this finding the authors regard higher unemployment 
+as a predictor of lower interest rates and lower corporate profits. The relative strength of these two 
+outcomes differs in boom and bust cycles, so that the sign of the unemployment announcement effect 
+is business cycle dependent. Flannery and Protopapadakis (2002) showed that stock market returns 
+are significantly correlated with inflation and money growth. They estimated a GARCH model of daily 
+USA equity returns, where realized returns and their conditional volatility depend on 17 macro series 
+announcements. They found six candidates for priced factors: three nominal (CPI, PPI, and a Monetary 
+Aggregate) and three real (Balance of Trade, Employment Report, and Housing Starts). Errunza 
+and Hogan (1998) investigated, via VAR-models markets for 1959.1993, whether macroeconomic 
+factors explained time variation in seven European stock market volatilities. The authors showed 
+that money supply volatility had a significant impact on stock volatility in Germany and France and 
+that the volatility of industrial production had an effect on stock market volatility in Italy and the 
+Netherlands. Cheung and Ng (1998) used Johanson¡¯s cointegration technique for Germany, Italy, the 
+USA, Canada and Japan, and found long-term co-movements between the national stock market and 
+macroeconomic factors including the real oil price, real consumption, real money supply and real GNP 
+output. An international comparison was made in Rapach et al. (2005), where the predictive ability 
+of nine macroeconomic factors was tested in 12 industrialized stock markets. Among the factor set, 
+the interest rates were stated to be the most consistent and reliable predictors of stock returns across 
+countries. Ratanapakorn and Sharma (2007) documented, using a vector error correction model and 
+Johansen¡¯s cointegration technique, that between 1975 and 1999, USA stock prices relate negatively to 
+the long-term interest rate. Their results showed that industrial production, money supply, inflation, 
+exchange rate and the short-term interest rate have a positive relation to stock prices. Humpe and
+
+Int. J. Financial Stud. 2019, 7, 18 3 of 13 
+Macmillan (2009) also used cointegration analysis for the USA and Japanese stock markets between 
+1965 and 2005 to examine the long-term relationship to macroeconomic factors, namely industrial 
+production, consumer price index, money supply and the long-term interest rate. For the Japanese 
+stock market, the authors detected a positive impact of industrial production and a negative impact of 
+the money supply on stock prices. Furthermore, they showed that the consumer price index and the 
+long-term interest rate have a negative effect on industrial production. For the USA stock market, they 
+found a positive impact of industrial production and a negative impact of the consumer price index 
+and the long-term interest rate on stock prices. Sir (2012) applied Johansen co-integration, an error 
+correction model, variance decomposition and impulse response functions to investigate the long-run 
+and the short-run dynamics between macroeconomic factors and stock returns in Germany and the 
+United Kingdom for the period from 1999 to 2011. He found that the consumer price index, interest 
+rates, exchange rates, money supply and industrial production lead to short-term adjustments and to 
+long-term dynamic movements of stock prices. 
+The main motivation of this research was to detect the macroeconomic factors that do not have 
+an immediate but a significant delayed impact on returns of the German stock market DAX30. In 
+particular, we focused on macroeconomic impacts in the pre- and post-crisis periods and checked 
+whether the market got more ¡°macro-driven¡± during or after the financial crisis. Therefore, we applied 
+ordinary least squares with Newey-West adjusted standard errors for 24 macroeconomic factors using 
+quarterly data from 1991 to 2018 and investigated the presence of delayed and dynamic impacts of 
+macroeconomic factors on stock market prices in Germany. Thus, since we used only lagged factors, 
+our results could also provide some indications about the semi-strong market efficiency. To the best 
+of our knowledge, comparable investigations for the DAX30, the time period in question and the 
+econometrical model employed do not exist. 
+The remainder of the paper is organized as follows. Section 2 describes our data and the theoretical 
+impact of macroeconomic factors on stock returns. In Sections 3 and 4 we present our econometric 
+approach and discuss our empirical findings. Finally, Section 5 provides a conclusion. 
+2. Data 
+For our investigation, we worked with six different data sources: Deutsche Bundesbank, European 
+Statistical Office (Eurostat), European Central Bank (ECB), Organisation for Economic Co-operation 
+and Development (OECD), the Institute for Economic Research (ifo) and the Centre for European 
+Economic Research (ZEW). The sample data set ranges from the first quarter of 1991, to the second 
+quarter of 2018.1 Table 1 gives an overview of the dataset and their sources. Monthly data were 
+transformed to quarterly data using the end-of-quarter values. Additionally, the current account has 
+been seasonally adjusted using the Census X-13 procedure. In order to get stationary series, we took 
+the quarterly first difference of the current account, capital account, all time series of the ifo, the ZEW 
+Indicator of Economic Sentiment and the German government bond yields (all maturities). For the 
+remaining series, we used the quarterly first difference of the logarithm. 
+The dependent variable is the DAX performance index, which also takes dividends into account. 
+Among classical macroeconomic variables like gross domestic product in real terms (GDP) or monetary 
+aggregates, our dataset of independent variables contained German government bonds yields for the 
+maturities of 1, 2, 3, 4, 5 years, as well as 3 to 5, 5 to 8 and 9 to 10 years and economic indicators. Since 
+German government bonds yields are often used as a proxy for risk-free rates, which are crucial for 
+discounted cash flow analysis, we wanted to detect the maturity with the largest explanatory power. 
+The ifoWorld Economic Survey series measures business cycle developments and other economic 
+factors of more than 100 advanced, emerging or developing economies by interviewing more than 1000 
+1 The data series for the unemployment rate and the real effective exchange rate start in Q1 1992 and Q1 1993, respectively. 
+The data of the ZEW starts in Q4 1991.
+
+Int. J. Financial Stud. 2019, 7, 18 4 of 13 
+economic experts (ifoWES 2017). The ifo Export Expectations and Export Climate series are measures 
+of German export activities and are calculated by using company and consumer confidence indices 
+and the price competitiveness of domestic companies against 37 trade partners (Elstner et al. 2013). 
+Table 1. Overview of the variables including data sources and the frequencies. ECB: European Central 
+Bank; ifo: Institute for Economic Research; ZEW: Centre for European Economic Research; OECD: 
+Composite Leading Indicator. 
+Variables Source Data Frequency 
+DAX performance index (dependent variable) Bundesbank Monthly 
+Classical macroeconomic variables 
+Gross Domestic Product (real) Bundesbank Quarterly 
+Current account Bundesbank Quarterly 
+Capital account Bundesbank Quarterly 
+Unemployment rate Bundesbank Quarterly 
+Gross investments Eurostat Quarterly 
+Exports (nominal) Eurostat Quarterly 
+Savings rate Bundesbank Quarterly 
+Consumer price index Bundesbank Monthly 
+Real effective exchange rate Bundesbank Monthly 
+Output in the production sector Bundesbank Monthly 
+Labor productivity per hour worked Bundesbank Quarterly 
+Monetary aggregate M1 ECB Monthly 
+Monetary aggregate M2 ECB Monthly 
+Monetary aggregate M3 ECB Monthly 
+German government bond yields 
+1 year German government bonds yields Bundesbank Monthly 
+2 year German government bonds yields Bundesbank Monthly 
+3 year German government bonds yields Bundesbank Monthly 
+4 year German government bonds yields Bundesbank Monthly 
+5 year German government bonds yields Bundesbank Monthly 
+3.5 year German government bonds yields Bundesbank Monthly 
+5.8 year German government bonds yields Bundesbank Monthly 
+9.10 year German government bonds yields Bundesbank Monthly 
+Economic indicators 
+ifoWorld Economic Survey: global economic current situation ifo Quarterly 
+ifo World Economic Survey: expectations for the next six months ifo Quarterly 
+ifoWorld Economic Survey: global economic climate ifo Quarterly 
+ifo Export Expectations (Germany) ifo Monthly 
+ifo Export Climate (Germany) ifo Monthly 
+ZEW Indicator of Economic Sentiment ZEW Monthly 
+Composite Leading Indicator OECD Monthly 
+Business Confidence Index OECD Monthly 
+Consumer Confidence Index OECD Monthly 
+The ZEW Indicator of Economic Sentiment is a leading indicator for the German economy, where 
+about 350 financial analysts from banks, insurance companies and financial departments of selected 
+large corporations are asked about the economic expectations for the medium-term (ZEW 2006). The 
+Composite Leading Indicator (CLI) for Germany provided by the OECD is calculated using a wide 
+range of short-term indicators and leading factors such as orders and inventory changes, financial 
+market indicators, business confidence surveys and data on key sectors.2 The Business Confidence 
+Index (BCI) reflects developments in production, orders and stocks, whereas the Consumer Confidence 
+Index (CCI) measures the consumption and savings behavior of households. Both indices are based on 
+opinion surveys. 
+2 A detailed description of the component selection is given by Guidetti and Gyomai (2012, p. 5).
+
+Int. J. Financial Stud. 2019, 7, 18 5 of 13 
+The economic intuition in the case of economic indicators is straightforward. Since economic 
+(leading) indicators reflect future economic development, lagged indicators should have some 
+information about the present and future business success of publically-traded companies. Especially 
+in a macro-driven market, leading indicators should have a positive and significant impact on stock 
+returns. As mentioned above, the German government bonds yields reflect risk-free rates. We expect 
+a negative impact of these yields on stock returns, since an increase of the risk-free rate increases 
+the equity risk premium and thus the discount rate. Additionally, increasing yields could lead to a 
+substitution effect among investors between stocks and interest-bearing assets like bonds. Regarding 
+GDP, exports, the output in the production sector and the labor productivity, the economic intuition is 
+again straightforward, since an increase of these variables leads to higher sales, and thus to higher 
+cash flows. Regarding inflation, we expect a negative relation to stock returns. This is because 
+higher inflation leads to an increasing risk-free rate, and thus to an increasing discount rate for stocks. 
+Furthermore, increasing inflation could trigger economic tightening policies, which would put stocks 
+under pressure. Because of the positive link between monetary aggregates and inflation, increasing 
+monetary aggregates could lead to a slowdown of the stock market. However, increasing monetary 
+aggregates also reflect monetary stimulus decisions of the ECB, which could increase cash flows, and 
+thus stock returns. 
+A higher exchange rate could lead to a decreasing demand for exports, so that sales decline, and 
+thus, stocks decrease. On the other hand, higher exchange rates could lead to higher profit margins, 
+since the cost of production decreases due to lower purchase prices from abroad. The current account 
+sums up net exports, net income from abroad and net current transfers. Thus, an increasing current 
+account surplus could increase stock returns due to higher income from abroad, which could increase 
+the demand for stocks. On the other hand, the current account reflects the change in net foreign 
+assets. Hence, in the case of an increase of the current account deficit, either other countries lend their 
+savings to Germany or Germany liquidates its foreign assets. In either instance, the German economy 
+would absorb capital, which could increase demand in the stock market. Similar to that, the capital 
+account calculates transfers in assets and liabilities, and thus reflects inflows and outflows of money. 
+Since a surplus of the capital account reflects an inflow of money, increasing capital account surpluses 
+could increase stock returns. The unemployment rate contains information about corporate earnings 
+and expected monetary and fiscal policy. On the one hand, increasing unemployment rates could be 
+interpreted as a signal of lower future sales and earnings expectations of businesses, which would lead 
+to lower stock returns. On the other hand, increasing unemployment rates could raise the expectation 
+for expansionary monetary or fiscal policies, which would also have a stimulus effect on stocks. In 
+particular, a shrinking interest rate would lead to higher stock valuations due to a lower discount 
+rate. The savings rate reflects the share of the disposable income of a nation, which is not consumed, 
+and thus could be used to acquire assets. Hence, higher savings rates could increase the demand 
+for stocks and lead to higher stock returns. An increase in terms of gross investments could lead to 
+both increasing and decreasing stock returns. Higher gross investments could be a signal for market 
+participants that companies expect higher sales and earnings for the future. Nevertheless, market 
+participants could expect lower dividend payouts due to higher expenditures for investments, which 
+would lead to decreasing stock returns. 
+3. Model Specification 
+As is common in financial time series, the quarter-on-quarter change rate of the DAX performance 
+index shows the presence of autocorrelation and heteroskedasticity.3 Assuming homoskedasticity, 
+the ordinary least squares OLS method aims to minimize the deviations between data points and a 
+regression line to fit those points. With asset returns, volatility seems to vary during certain periods 
+3 Therefore, we applied the Ljung-Box test for the returns and the squared returns.
+
+Int. J. Financial Stud. 2019, 7, 18 6 of 13 
+of time and also depends on past variance. By applying an OLS to these heteroskedastic time series, 
+periods with high volatility have a greater impact on the estimation of the coefficients, leading to 
+inefficient coefficients and biased test statistics. To correct the biased test statistics, we perform OLS 
+with Newey-West heteroskedasticity and autocorrelation consistent (HAC) standard errors.4 
+The macroeconomic factors are partly highly correlated. Therefore, a common OLS estimation, 
+which includes all macroeconomic factors, leads to problems of multicollinearity. In this case, the test 
+statistics are biased and it is impossible to obtain the isolated effect of an individual factor, which is 
+the aim of this research. To determine the dynamic impact of a macroeconomic factor (MF) on stock 
+returns (r) over several quarters, for each individual factor, we ran a separate OLS regression.5 In this 
+way, the estimated coefficients and the test statistics are free of the multicollinearity issue. In order to 
+avoid endogeneity problems, we used only lagged variables, as follows: 
+rt = b0 + b1MFt..1 + b2MFt..2 +    + bkMFt..k + #t. (1) 
+This means that the stock returns were modeled by the last k periods of the macroeconomic factor. 
+To determine the lag length k of each model, we used the Akaike information criterion. 
+To measure the joint impact of the lagged macroeconomic factor, we performed theWald test with 
+the following null hypothesis: 
+b1 + b2 +    + bk = 0. (2) 
+The calculated test statistic, which follows a c2-distribution, reveals not only the significance of 
+the sum of the lagged factor, but also the way in which the macroeconomic factor affects stock returns. 
+An additional test for joint significance is the likelihood-ratio test (lr-test). The test statistic, which 
+also follows asymptotically a c2-distribution, is calculated by dividing the likelihood of the estimated 
+model with the lagged factors by the likelihood of the model without including the lagged factors. A 
+high resulting ratio is an indicator of a significant impact of the lagged factors on stock returns. 
+The Wald test does not take into account that lagged factors could have different directions of 
+impact, since the sum of the coefficients is tested in this method. Thus, in the case of a model with two 
+lagged factors, where the first lagged factor has a positive significant impact and the second lagged 
+factor a negative significant impact, the Wald test could indicate that there is no overall significant 
+impact on stock returns, as the sum of the individual significant impacts are neutralized. In contrast to 
+that, the lr-test would indicate a significant joint impact, since it measures the increase of the goodness 
+of fit of the model by adding the lagged factors. For this reason, we used the lr-test particularly to 
+compare the explanatory power of the macroeconomic factors. 
+4. Discussion of the Results 
+4.1. Results for the Whole Time Period 
+First, we measured the lagged impact of macroeconomic factors on DAX returns with maximum 
+of four lags (k) for the whole sample, the results of which are shown in Table 2. Both the Wald test 
+and the lr-test showed strong evidence for a significant impact of lagged quarterly growth rates of 
+the CLI on DAX stock returns. Particularly, the CLI seems to be the factor with the strongest impact 
+regarding the lr-test and the adjusted R-squared. The number of lags included in the OLS specification 
+is four and, according to the Wald test, the cumulative impact of these lags is positive. This means that 
+4 We used Bartlett kernel weights with an automatic bandwidth selection procedure as described in Newey and West (1994). 
+5 Additionally, we purposed to perform a Principal Component Analysis (PCA) to cluster the large dataset into a low 
+dimensional set of components. By conducting an OLS regression in use of these components as explanatory variables, we 
+would obtain a global model, in which the problem of multicollinearity would be countered. However, the use of the PCA 
+shows us that the first two components explain only about 40% of the total variance and that 10 components are required to 
+explain about 80% of the total variance. Because of the large amount of required components, we dropped the idea of using 
+a PCA.
+
+Int. J. Financial Stud. 2019, 7, 18 7 of 13 
+the past four quarters jointly had a positive effect on stock returns. From an economic point of view, 
+the positive impact is very intuitive, since a positive economic outlook predicts higher earnings for 
+enterprises for the next periods, which leads to increasing stock valuations. 
+Table 2. Results of ordinary least squares regressions for the whole sample. Only those factors which 
+show a significant impact on stock returns are displayed, along with information about the lag structure, 
+the Wald test with its p-value and measured direction of impact, the p-value of the likelihood ratio test 
+and the adjusted R-squared. BCI: Business Confidence Index; GDP: Gross Domestic Product. 
+Factor 
+Number 
+of Lags 
+Wald Test 
+lr-Test 
+(p-Values) 
+Adjusted 
+p-Values Direction of R-Squared 
+the Impact 
+CLI 3 0.0272 positive 0.0004 0.1323 
+BCI 2 0.7237 positive 0.0175 0.0550 
+GDP 2 0.2444 negative 0.0289 0.0461 
+Gross investments 2 0.5052 negative 0.0639 0.0318 
+Unemployment rate 2 0.0205 positive 0.0844 0.0278 
+Exports 3 0.0801 negative 0.0948 0.0307 
+5 y German government bonds yield 4 0.0000 negative 0.0010 0.1271 
+3 y German government bonds yield 1 0.0184 negative 0.0055 0.0600 
+2 y German government bonds yield 1 0.0103 negative 0.0195 0.0403 
+1 y German government bonds yield 1 0.0033 negative 0.0478 0.0265 
+4 y German government bonds yield 1 0.0217 negative 0.0583 0.0235 
+3.5 y German government bonds yield 3 0.0090 negative 0.0909 0.0315 
+Although theWald test shows insignificance, the lr-test indicates a significant impact of the BCI, 
+GDP and the gross investments on stock returns. Using the three factors, the lowest Akaike value was 
+achieved in the specification with two quarter lags. The measured insignificance using the Wald test is 
+a result of opposite impacts in the two lagged quarters: By using the t-test, the BCI and GDP show 
+in the first lagged quarter a positive and in the second lagged quarter a negative significant impact, 
+whereby gross investments have a negative significant impact only in the second quarter. 
+For the unemployment rate, the Wald test indicates, with a p-value of 0.02, a significant and 
+positive impact of the quarterly growth rates of the unemployment rate on stock returns. Nevertheless, 
+the lr-test shows that the unemployment rate has a statistically significant impact only at the 10 percent 
+level. The positive effect could be explained by an economic contraction, which leads to higher 
+unemployment rates and lower interest rates and, as a result, to higher discounted cash flows. A 
+similar explanation could also be appropriate for the finding that exports have a negative effect on 
+stocks. However, the significance level in both tests is very low, while this effect is measured only by 
+using three lagged quarters. 
+Regarding the lr-test and the adjusted R-squared, the second strongest impact is shown by the 
+5-year German government bonds yield. Since German government bonds are good proxies for 
+risk-free rates. and thus for discount rates in discounted cash flow analysis, the negative significant 
+impact due to the Wald test is not surprising for all significant maturities: rising yields shrink the 
+valuation of stocks due to higher discount rates for future cash flows. Besides the 5-year maturity 
+yield, the 3-year and 2-year government bonds yields also have statistically significant impacts at the 
+0.02 p-value level. Looking at the big picture, the medium-term maturity government bonds yield 
+rates seem to have the highest impact on stocks regarding both lr-test and adjusted R-squared. 
+4.2. Results Before, during and after the Crisis 
+As a next step, we wanted to check whether the impact of the lagged macroeconomic factors on 
+stock returns differ regarding crisis periods and non-crisis periods. For our research, the crisis period 
+contains the financial crisis and the European sovereign debt crisis. The third quarter of 2007 is the first 
+period of our crisis sample, since in August 2007 interest rates rose and transaction volumes declined 
+sharply on the interbank lending market. The last period of our crisis sample is the third quarter of
+
+Int. J. Financial Stud. 2019, 7, 18 8 of 13 
+2012, when the President of the ECB, Mr. Draghi, remarked at the Global Investment Conference 
+in London: 
+¡°Within our mandate, the ECB is ready to do whatever it takes to preserve the euro. And 
+believe me, it will be enough.¡± 
+After this speech, the ECB announced that they will buy government bonds of distressed Eurozone 
+member countries, which is known as the Outright Monetary Transactions program. Although the 
+ECB never used this program, the power of Draghi¡¯s speech and the promise of bond purchases lead 
+to shrinking government bond yields of distressed membercountries (Wanke 2017). 
+Thus, we clustered the sample into a pre-crisis period (Q1 2001.Q2 2007, sample-size: 26), a crisis 
+period (Q3 2007.2012 Q3, sample-size: 26) and a post-crisis period (Q4 2012.Q2 2018, sample-size: 
+26) and take the same Newey-West OLS approach, as in Section 4.1 with four lags at the maximum. 
+Although Engle (1984) shows that both the Wald and lr-test are asymptotically equivalent, in the case 
+of small sample sizes, theWald test is less reliable than the lr-test (Agresti 2007, p. 13). Thus, for this 
+section, since the three samples are small, the lr-test becomes more important for our analysis. 
+Table 3 contains the results for the pre-crisis period, Table 4 shows the results for the crisis period 
+and Table 5 sums up the results for the post-crisis period. At first glance, the results illustrate that 
+using the lr-test, in the crisis period the amount of macroeconomic factors and government bond yields 
+with significant impact on stock returns is higher than in both the pre- and post-crisis periods. The 
+higher adjusted R-squared values in the crisis period in comparison to the values for the pre- and 
+post-crisis periods validate the higher importance of macroeconomic factors in times of crisis. This 
+implies that in the crisis period a macro-driven market prevailed. 
+Among the economic indicators, only the CLI and the ifo Export Climate index show significant 
+impacts on stock returns in the pre-crisis period. Particularly, the CLI had the most explanatory power 
+amongst all factors according to both the lr-test and adjusted R-squared. According to theWald test, 
+the CLI and the ifo Export Climate had a positive impact; however, only the CLI also has a statistically 
+significant impact at the 10 percent significance level. Among the classical macroeconomic variables, 
+the lr-test revealed that only the four quarter lagged exports had a significant impact on stock returns. 
+According to the Wald test, the direction of the impact could not be determined with certainty. 
+In the pre-crisis period, the German government bonds yield with a maturity of 5 years showed 
+a statistically significant impact at the five percent level in both tests. The 3 year government bonds 
+yield had only a statistically significant impact at the 10 percent level using the lr-test. The sign of the 
+impact of government bond yields are negative, which is in line with our expectations regarding the 
+discounted cash flow valuation model. 
+Table 3. Results of OLS regressions for the pre-crisis period. Only those factors that show a significant 
+impact on stock returns are displayed, along with information about the lag structure, theWald test 
+with its p-value and measured direction of impact, the p-value of the likelihood ratio test and the 
+adjusted R-squared. 
+Pre-Crisis (2001q1.2007q2) 
+Factor 
+Number 
+of Lags 
+Wald Test 
+lr-Test 
+(p-Values) 
+Adjusted 
+p-Values Direction of R-Squared 
+the Impact 
+CLI 3 0.0673 positive 0.0278 0.1997 
+ifo Export Climate 3 0.7908 positive 0.0617 0.1432 
+Exports 4 0.9565 positive 0.0457 0.1804 
+5 y German government bonds yield 1 0.0459 negative 0.0286 0.1337 
+3 y German government bonds yield 1 0.1085 negative 0.0566 0.0942
+
+Int. J. Financial Stud. 2019, 7, 18 9 of 13 
+Table 4. Results of OLS regressions for the crisis period. Only those factors that show significant 
+impact on stock returns are displayed, along with information about the lag structure, theWald test 
+with its p-value and measured direction of impact, the p-value of the likelihood ratio test and the 
+adjusted R-squared. 
+Crisis (2007q3.2012q3) 
+Factor 
+Number 
+of Lags 
+Wald Test 
+lr-Test 
+(p-Values) 
+Adjusted 
+p-Values Direction of R-Squared 
+the Impact 
+CLI 2 0.0000 positive 0.0042 0.3406 
+ifo Export Expectations 2 0.0021 positive 0.0067 0.3101 
+BCI 2 0.3477 positive 0.0118 0.2719 
+ifo Export Climate 1 0.0000 positive 0.0561 0.1152 
+ifo global expectation 1 0.0597 positive 0.0852 0.0859 
+ifo global current situation 4 0.8824 negative 0.0913 0.1463 
+M2 2 0.0123 negative 0.0126 0.2673 
+M3 1 0.0001 negative 0.0149 0.2061 
+Current account 3 0.7891 negative 0.0260 0.2431 
+CPI 3 0.0000 negative 0.0271 0.2397 
+M1 2 0.0006 positive 0.0422 0.1780 
+Unemployment rate 1 0.0001 positive 0.0627 0.1074 
+5 y German government bonds yield 4 0.4333 negative 0.0011 0.4754 
+3 y German government bonds yield 3 0.0538 negative 0.0014 0.4409 
+2 y German government bonds yield 1 0.0000 negative 0.0198 0.1870 
+3.5 y German government bonds yield 3 0.0046 negative 0.0199 0.2639 
+5.8 y German government bonds yield 3 0.0137 negative 0.0248 0.2468 
+9.10 y German government bonds yield 3 0.0210 negative 0.0360 0.2168 
+1 y German government bonds yield 1 0.0000 negative 0.0410 0.1372 
+Table 5. Results of OLS regressions for the post-crisis period. Only factors that show a significant 
+impact on stock returns are displayed, containing information about the lag structure, theWald test 
+with its p-value and measured direction of impact, the p-value of the likelihood ratio test and the 
+adjusted R-squared. 
+Post-Crisis (2012q4.2018q2) 
+Factor 
+Number 
+of Lags 
+Wald test 
+lr-Test 
+(p-Values) 
+Adjusted 
+p-Values Direction of R-Squared 
+the Impact 
+Exports 4 0.0000 negative 0.0062 0.3459 
+M1 4 0.3824 negative 0.0068 0.3399 
+Capital account 3 0.1925 positive 0.0222 0.2374 
+Gross investments 2 0.1130 negative 0.0349 0.1784 
+Real effective exchange rate 4 0.0716 positive 0.0511 0.1890 
+M3 2 0.4651 negative 0.0545 0.1459 
+CPI 4 0.3969 positive 0.0812 0.1480 
+3 y German government bonds yield 4 0.0080 negative 0.0230 0.2535 
+In the crisis period, the two quarter lagged CLI showed, according to both tests, the strongest 
+impact. Besides the CLI, the ifo Export Expectations index, the ifo Export Climate index and the ifo 
+Global Expectation index showed significant and positive impacts on stock returns with respect to 
+both tests. According to the Wald test, the BCI and the ifo global current situation index had no impact 
+on stock returns. Considering that these two indices were not forward-looking like the CLI and the ifo 
+Export Expectations index, this result was not surprising. Following the lr-test, the BCI and the ifo 
+global current situation index had a significant impact at the five and 10 percent levels, respectively. 
+Regarding the lr-test, the number of German government bonds yields with significant impacts 
+on stock returns jumped from two to seven, where the level of statistical significance is at a minimum 
+of five percent. These are the 5 y, 3 y, 2 y, 3.5 y 5.8 y 9.10 y and 1 y German government bonds yields. 
+With the exception of the 5 y government bonds yield, the direction of the impacts of these yields was
+
+Int. J. Financial Stud. 2019, 7, 18 10 of 13 
+negative. As previously discussed, in the pre-crisis period, the 5 y and the 3 y German government 
+bonds yields have the strongest impact on stock returns among government bonds regarding both the 
+lr-test and the adjusted R-squared. The number of lags of the 5 y and 3 y yields increased from one 
+quarter to four and three quarters, respectively. 
+Regarding the lr-test, the three quarter lagged current account has a significant impact on stock 
+returns at the five percent level. However, the direction of this impact cannot be measured using the 
+Wald test. According to the lr-test, the one quarter lagged unemployment rate shows a significant 
+impact on stock returns at the 10 percent significance level. TheWald test confirms this finding and 
+reveals that the direction of the impact is positive. As indicated in Section 2, the positive impact could 
+be a result of market participants¡¯ expectation of expansionary fiscal and monetary policies in response 
+to growing unemployment, which would also have a positive effect on stock prices. Furthermore,Wald 
+test shows that the three quarters lagged CPI has a significant impact on stock returns at the one percent 
+significance level. As expected, the direction of the impact is negative, which could be explained by 
+increasing discount rates for stocks due to higher inflation. The lr-test confirms the significance of the 
+impact at the five percent level. Both tests show that the impacts of all three monetary aggregates are 
+significant at a minimum of the five percent level. While in the pre-crisis period, none of the three 
+money supply variables show any impact on stock returns, in the crisis period all of these factors 
+have a significant effect on stock returns. The Wald test reveals that the two quarters lagged M1 has a 
+positive impact on stock returns, while M2 and M3 show negative impacts. An explanation for the 
+positive impact of M1 could be the excess liquidity caused by expansionary monetary policy especially 
+during the crisis period, which led to increasing bond prices and decreasing interest rates. Considering 
+that stock prices are reflecting the value of discounted future cash flows, lower interest rates lead to 
+higher stock valuations. Additionally, the excess liquidity could increase the demand for stocks, so that 
+stock prices rise. Furthermore, companies could benefit from a lower cost of capital and increase their 
+investments, which would have a positive effect on future cash flows, and thus on stock returns. The 
+negative impacts of M2 and M3 are quite interesting, since M1, which has a positive impact, is part of 
+both M2 and M3. Considering that both broader monetary aggregates M2 and M3 include, in addition 
+to M1, longer-term deposits and less liquid assets, the negative effect can only be explained by them. 
+In the course of this section we will examine the impacts of the monetary aggregates in more detail. 
+In the post-crisis period, the number of indicators with a significant impact on stock returns 
+sinks to zero. Among the government bonds yields, only the four quarters lagged 3 y yields showed 
+a significant impact at the five percent level according to the lr-test. The Wald test confirmed the 
+significant impact and shows that the variable exhibits a negative impact. 
+Among the classical macroeconomic variables, we have a surprising result regarding the exports. 
+The lr-test shows that the four quarters lagged exports had a significant impact on stock returns at the 
+one percent level. Nevertheless, theWald test indicates that the direction of the impact was negative, 
+which is against our expectations and intuition. A possible explanation for this result will be provided. 
+Among the monetary aggregate variables, the four quarter lagged M1 and the two quarter lagged M3 
+have significant impacts at the one percent and 10 percent level, respectively, regarding to the lr-test. 
+However, theWald test did not confirm these findings, and thus could not provide the directions of the 
+impact. An explanation as to why the increase of M1 did not impact positively on stock returns, as it 
+does in the crisis period, could be that the money supplied or the excess liquidity was no longer used to 
+purchase bonds and stocks. Instead, financial institutions could loan this liquidity to the real economy 
+following the crisis period. Additionally, taking into consideration the loose monetary policy of the 
+ECB, the negative impacts of exports could be caused by financial sector behavior: banks directed 
+their liquidity or funds from stocks and (government) bonds towards the real economy, which could 
+increase exports and decrease stock prices due to lower demand and higher discount rates. 
+Both, the two quarter lagged gross investments and the three quarter lagged capital account 
+showed an impact on stock returns at the five percent significance level regarding the lr-test. However, 
+the Wald test could not provide any evidence for a significant impact for both variables. Regarding the
+
+Int. J. Financial Stud. 2019, 7, 18 11 of 13 
+lr-test, both the four quarters lagged CPI and real effective exchange rate have significant impacts on 
+stocks at the 10 percent levels. However, theWald test could only show that the real effective exchange 
+rate has a significant impact at the 10 percent level with a positive impact on stock returns. Thus, an 
+appreciation of the euro lead to higher future stock returns. This impact could be explained by the 
+foreign demand for the euro: increasing demand leads to higher exchange rates and a positive impact 
+on stocks due to higher demand for European and German assets. 
+Table 6 displays the results of our Newey-West OLS model using lagged quarterly growth rates of 
+the differences between M2 and M1 and between M3 and M2. In the pre-crisis period, neither of the 
+differences had a significant impact regarding both tests. In the crisis period, where the financial crisis 
+and the European debt crisis caused turmoil in the capital markets, the one quarter lagged difference 
+between M2 and M1 showed a significant and negative impact on stock returns at the one percent 
+significance level according to both tests. Since the difference of M2 and M1 reflects ¡°near money¡± 
+deposits, such as deposits with an agreed maturity of up to two years and deposits redeemable at 
+notice of up to three months, a possible explanation for this finding could be that market participants 
+undertake a portfolio reallocation due to higher risk aversions.6 Thus, in times of insecurity and crisis, 
+investors prefer safer and liquid assets, so that the demand for non-monetary assets, such as stocks, 
+shrinks and the demand for liquid and low-risk monetary assets.such as those in M2.rises. This 
+explanation is also valid for the negative impact of the one quarter lagged difference between M3 
+and M2, which includes money market instruments or marketable instruments issued by monetary 
+financial institutions. The adjusted R-squared figures and the lr-test indicate that the growth rate of 
+M2 minus M1 has more effect on stocks than the growth rate of M3 minus M2. This picture is not 
+very surprising for a crisis period, since M2 has more liquid and low-risk deposits than M3. However, 
+according to the Wald test, the impact direction of the three quarters lagged growth rate of M2 minus 
+M1 turns to positive in the post-crisis period. This result reflects that an increase of liquidity, which 
+could be driven, for instance, by loose monetary policy in the post-crisis period, increases after several 
+quarters both the monetary assets of M2 and, due to lower risk aversions, non-monetary assets like 
+stock returns. Referring to the lr-test, the impact of the two quarters lagged M3 minus M2 is significant 
+at the 10 percent level. However, the impact direction cannot be measured by the Wald test. 
+Table 6. Results of OLS regressions using quarterly growth rates of the differences between M2 and 
+M1 and between M3 and M2 for the pre-crisis, crisis and post-crisis periods. 
+Factor Sample Number 
+of Lags 
+Wald Test 
+lr-Test 
+(p-Values) 
+Adjusted 
+p-Values Direction of R-Squared 
+the Impact 
+M2 minus M1 Pre-crisis 1 0.5873 positive 0.6183 ..0.0318 
+M3 minus M2 Pre-crisis 1 0.3166 positive 0.4376 ..0.0178 
+M2 minus M1 Crisis 1 0.0000 negative 0.0059 0.2669 
+M3 minus M2 Crisis 1 0.0823 negative 0.1361 0.0530 
+M2 minus M1 Post-crisis 3 0.0090 positive 0.0820 0.1349 
+M3 minus M2 Post-crisis 2 0.9967 negative 0.0798 0.1171 
+5. Conclusions 
+On the whole, the results illustrate that for all sample variations, several macroeconomic factors 
+showed a delayed impact on German stock returns. Across most subsamples, the CLI, the ifo Export 
+Expectation index, the ifo Export Climate index, exports, the CPI, and 3 y German government bonds 
+yields show a lagged impact on stock returns. For the savings rate, the output in production, labor 
+6 For the methodology of monetary aggregates we refer to ECB (2012, pp. 110.11).
+
+Int. J. Financial Stud. 2019, 7, 18 12 of 13 
+productivity, the ifo Global Economic Climate index, the ZEW Indicator of Economic Sentiment and 
+the Consumer Confidence Index, we cannot provide any evidence indicative of delayed impacts. We 
+demonstrated that in cases of significance, lagged German government yields have a negative impact 
+on stock returns. The results show that in the pre-crisis and crisis periods, the lagged CLI had a positive 
+impact on stock returns. Lagged exports had a negative impact on stocks in the post-crisis period. This 
+result, which could at first sight appear to be economically counterintuitive, can be explained by the 
+changing behavior of financial institutions after the crisis period. In the crisis period, lagged monetary 
+aggregates M2 and M3 had a negative impact on stocks, whereas lagged M1 showed a positive impact. 
+Even though M1 has a significant impact also in the post-crisis period, the direction of the impact was 
+not observable. Furthermore, we found that the impact direction of the lagged difference between M2 
+and M1 changed: in the crisis period, the impact on stock returns was negative, whereas the impact 
+turned to positive in the post-crisis period. 
+The results for the subsamples also illustrate that in the crisis period, more macroeconomic factors, 
+in particular leading indicators, had a significant impact on the German stock market compared with 
+the pre- and post-crisis periods. This implies that in the crisis period, a macro-driven market was 
+prevailing. Thus, the bottom line of our research is that in crisis periods asset managers and other 
+investors should pay greater attention to trends in classical macroeconomic variables, government 
+bonds yields and especially leading economic indicators than in non-crisis periods. 
+Apart from including additional macroeconomic variables, further research could be applied on 
+the impact of these factors on sectoral stock market indices, which could provide a basis for tactical 
+asset allocation decisions. Since the information regarding changes in these factors is publicly available, 
+the semi-strong market efficiency hypothesis could be tested in future research by evaluating a trading 
+rule in use of the measured delayed impacts. It would be also interesting to apply this approach to 
+other stock market indices of industrial and emerging economies and make comparisons between 
+them, which could also reveal useful information for investors. 
+Author Contributions: Conceptualization, K.C. and M.H.; Data curation, K.C.; Formal analysis, K.C.; 
+Investigation, K.C. and M.H.; Methodology, K.C.; Resources, K.C. and M.H.; Software, K.C.; Supervision, K.C. 
+and M.H.; Validation, K.C.; Visualization, K.C.; Writing.original draft, K.C. and M.H.; Writing.review & 
+editing, K.C. 
+Funding: This research received no external funding. 
+Acknowledgments: We are grateful for the helpful comments, suggestions and criticism of Andre Jungmittag 
+(Frankfurt University of Applied Sciences and IPTS Sevilla), Paul J.J. Welfens (University of Wuppertal), Richard 
+C. Walton (Pepperdine University), Lynn Kendall (University of Dallas), Mehmet F. Dicle (Loyola University 
+New Orleans), Edgar Walk (Metzler Asset Management), David Hanrahan (EIIW) and seminar participants at the 
+Chair for Macroeconomic Theory and Politics, University of Wuppertal. We also thank two anonymous reviewers 
+for their comments and suggestions that have significantly helped to improve this paper. Remaining errors are 
+our own. 
+Conflicts of Interest: The authors declare no conflict of interest. 
+References 
+Agresti, Alan. 2007. An Introduction to Categorical Data Analysis. Hoboken: John Wiley & Sons, Inc. [CrossRef] 
+Bodie, Zvi. 1976. Common stocks as a hedge against inflation. The Journal of Finance 31: 459.70. [CrossRef] 
+Boyd, John H., Jian Hu, and Ravi Jagannathan. 2005. The Stock Market¡¯s Reaction to Unemployment News: Why 
+Bad News is Usually Good for Stocks. The Journal of Finance 60: 649.72. [CrossRef] 
+Chen, Nai-Fu, Richard Roll, and Stephen A. Ross. 1986. Economic Forces and the Stock Market. The Journal of 
+Business 59: 383.403. [CrossRef] 
+Cheung, Ying-Wong, and Lilian K. Ng. 1998. International evidence on the stock market and aggregate economic 
+activity. Journal of Empirical Finance 5: 281.96. [CrossRef] 
+ECB. 2012. Manual on MFI Balance Sheet Statistics. Frankfurt am Main: ECB, ISSN 978-92-899-0827-6. 
+Elstner, Steffen, Christian Grimme, and Ulrich Haskamp. 2013. Das ifo Exportklima.Ein Fruhindikator fur die 
+deutsche Exportprognose. ifo Schnelldienst 66: 36.43.
+
+Int. J. Financial Stud. 2019, 7, 18 13 of 13 
+Engle, Robert F. 1984. Wald, likelihood ratio, and Lagrange multiplier tests in econometrics. In Handbook of 
+Econometrics. North-Holland: Elsevier, vol. 2, chp. 13. pp. 775.826. [CrossRef] 
+Errunza, Vihang, and Ked Hogan. 1998. Macroeconomic Determinants of European Stock Market Volatility. 
+European Financial Management 4: 361.77. [CrossRef] 
+Fama, Eugene F. 1981. Stock Returns, Real Activity, Inflation, and Money. The American Economic Review 71: 
+545.65. 
+Fama, Eugene F. 1990. Returns, Expected Returns and Real Activity. Journal of Finance 45: 1089.108. [CrossRef] 
+Fama, Eugene F., and G. William Schwert. 1977. Asset returns and inflation. Journal of Financial Economics 5: 
+115.46. [CrossRef] 
+Ferson,Wayne E., and Campbell R. Harvey. 1991. The Variation of Economic Risk Premiums. Journal of Political 
+Economy 99: 385.415. [CrossRef] 
+Flannery, Mark J., and Aris A. Protopapadakis. 2002. Macroeconomic Factors DO Influence Aggregate Stock 
+Returns. Review of Financial Studies 15: 751.82. [CrossRef] 
+Guidetti, Emmanuelle, and Gyorgy Gyomai. 2012. OECD System of Composite Leading Indicator. Available online: 
+http://www.oecd.org/sdd/leading-indicators/41629509.pdf (accessed on 28 November 2018). 
+Hamilton, James D., and Raul Susmel. 1994. Autoregressive conditional heteroskedasticity and changes in regime. 
+Journal of Econometrics 64: 307.33. [CrossRef] 
+Humpe, Andreas, and Peter Macmillan. 2009. Can macroeconomic variables explain long-term stock market 
+movements? A comparison of the US and Japan. Applied Financial Economics 19: 111.19. [CrossRef] 
+ifoWES. 2017. Ifo World Economic Survey.Description and Information. Available online: https://www. 
+cesifo-group.de/ifoHome/facts/Survey-Results/World-Economic-Survey/WES-Design.html (accessed on 
+4 November 2018). 
+McQueen, Grant, and V. Vance Roley. 1993. Stock Prices, News, and Business Conditions. Review of Financial 
+Studies 6: 683.707. [CrossRef] 
+Modigliani, Franco, and Richard A. Cohn. 1979. Inflation, Rational Valuation and the Market. Financial Analysts 
+Journal 35: 24.44. [CrossRef] 
+Newey, Whitney K., and Kenneth D.West. 1994. Automatic Lag Selection in Covariance Matrix Estimation. Review 
+of Economic Studies 61: 631.53. [CrossRef] 
+Pearce, Douglas K., and V. Vance Roley. 1983. The Reaction of Stock Prices to Unanticipated Changes in Money: A 
+Note. The Journal of Finance 38: 1323.33. [CrossRef] 
+Pearce, Douglas K., and V. Vance Roley. 1985. Stock Prices and Economic News. Journal of Business 58: 49.67. 
+[CrossRef] 
+Rapach, David E., Mark E. Wohar, and Jesper Rangvid. 2005. Macro variables and international stock return 
+predictability. International Journal of Forecasting 21: 137.66. [CrossRef] 
+Ratanapakorn, Orawan, and Subhash C. Sharma. 2007. Dynamic analysis between the US stock returns and the 
+macroeconomic variables. Applied Financial Economics 17: 369.77. [CrossRef] 
+Sir, Mahedi Masuduzzaman. 2012. Impact of the Macroeconomic Variables on the Stock Market Returns: The 
+Case of Germany and the United Kingdom. Global Journal of Management and Business Research 12: 23.34. 
+Wanke, Sebastian. 2017. KfW Research, Economics in Brief. July 26. Available online: https://www.kfw.de/PDF/ 
+Download-Center/Konzernthemen/Research/PDF-Dokumente-Volkswirtschaft-Kompakt/One-Pager-2017- 
+EN/VK-No.-139-July-2017-Whatever-it-takes_EN.pdf (accessed on 14 December 2018). 
+ZEW. 2006. ZEW Financial Market Survey. Retrieved November 2018. Available online: http://ftp.zew.de/pub/ 
+zew-docs/div/Kurzinfo_English.pdf (accessed on 13 November 2018). 
+¨Ï 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access 
+article distributed under the terms and conditions of the Creative Commons Attribution 
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+
